@@ -1,1 +1,1 @@
-'''Tu mama y tuu papa'''
+'''Tu mama y tu papa'''
