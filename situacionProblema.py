@@ -1,4 +1,8 @@
-""" Bienvenida Mary --- Ponte a Trabajar"""
+"""
+Juan José Salazar Cortés - A01642126
+Mariana Esquivel Hernández - A01641244
+Terminado el 31 de Marzo de 2022
+"""
 from cmath import log, sqrt
 def formulas(a,b,c,x,y,M):
     print(a,b,c)
@@ -23,13 +27,15 @@ def formulas(a,b,c,x,y,M):
         valor_2 = False
     #if valor_1 and valor_2:
     print(M)
-    vVault = ((4*a*c)/b**3)*[(y/4)*((y**2/4)+(M*b**2/c))**(3/2) + ((3*M*b**2*y)/(8*c))*sqrt((y**2/4)+(M*b**2/c)) +
-                             ((3*(M**2)*(b**4))/(8*c**2)) * (log((sqrt(((y**2)/4)+(M*b**2/c))+y/2)/(sqrt(((y**2)/4)+
-                                                                                                         (M*b**2/c))-y/2)))]
+    vVault = ((4*a*c)/b**3)*((y/4)*((y**2/4)+(M*b**2/c))**(3/2) +
+                    ((3*M*b**2*y)/(8*c))*sqrt((y**2/4)+(M*b**2/c)) +
+                         ((3*(M**2)*(b**4))/(8*c**2)) * (log((sqrt(((y**2)/4) +
+                             (M*b**2/c))+y/2)/(sqrt(((y**2)/4) + (M*b**2/c))-y/2))))
+    print(vVault)
     #else:
     # return(a,b,c,"Falso")
 def main():
-    m = 8
+    m = 7.88
     lx = 16
     ly = 50
     a = 1
@@ -38,12 +44,3 @@ def main():
     print(formulas(a,b,c,lx,ly,m))
 if __name__ == '__main__':
     main()
-"""vVault = ((4*a*c)/b^3)*[(ly/4)*((ly^2/4)+(M*b^2/c))^(3/2)] + ((3*M*b^2*ly)/(8*c))*sqrt((ly^2/4)+(M*b^2/c)) + ((3*M^2*b^4)/(8*c^2)) * log(sqrt((ly^2/4)+(M*b^2)))
-
-y = 0
-x = cdx / 2 
-z = 0
-parabola -> 
-los vertices de la hiperbola
-
-"""
