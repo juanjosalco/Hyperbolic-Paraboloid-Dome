@@ -1,4 +1,5 @@
 """ Bienvenida Mary --- Ponte a Trabajar"""
+from cmath import sqrt
 def formulas(a,b,c,x,y):
     valor_1 = 0
     valor_2 = 0
@@ -29,38 +30,5 @@ def main():
     if __name__ == '__main__':
         print(formulas(a,b,c,lx,ly))
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-from cmath import sqrt
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 vVault = ((4*a*c)/b^3)*[(ly/4)*((ly^2/4)+(M*b^2/c))^(3/2)] + ((3*M*b^2*ly)/(8*c))*sqrt((ly^2/4)+(M*b^2/c)) + ((3*M^2*b^4)/(8*c^2)) * log(sqrt((ly^2/4)+(M*b^2)))
-=======
->>>>>>> dc22bc53a8e00927fd1463400abae1d4e0f882f1
