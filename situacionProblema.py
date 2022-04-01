@@ -23,9 +23,10 @@ def formulas(a,b,c,x,y,M):
         valor_2 = False
     #if valor_1 and valor_2:
     print(M)
-    vVault = ((4*a*c)/b**3)*[(y/4)*((y**2/4)+(M*b**2/c))**(3/2) + ((3*M*b**2*y)/(8*c))*sqrt((y**2/4)+(M*b**2/c)) +
+    vVault = ((4*a*c)/b**3)*((y/4)*((y**2/4)+(M*b**2/c))**(3/2) + ((3*M*b**2*y)/(8*c))* (sqrt((y**2/4)+(M*b**2/c))) +
                              ((3*(M**2)*(b**4))/(8*c**2)) * (log((sqrt(((y**2)/4)+(M*b**2/c))+y/2)/(sqrt(((y**2)/4)+
-                                                                                                         (M*b**2/c))-y/2)))]
+                                                                                                         (M*b**2/c))-y/2))))
+    print(vVault)
     #else:
     # return(a,b,c,"Falso")
 def main():
