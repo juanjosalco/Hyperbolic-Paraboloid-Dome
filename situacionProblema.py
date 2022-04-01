@@ -5,7 +5,7 @@ def formulas(a,b,c,x,y,M):
     valor_1 = 0
     valor_2 = 0
     Hz = 0
-    if ((x^2)/(a^2))-((y^2)/(b^2)) == (32/c):
+    if ((x**2)/(a**2))-((y**2)/(b**2)) == (32/c):
         print('Valor2 = True')
         valor_1 = True
     else:
