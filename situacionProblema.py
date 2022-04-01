@@ -28,7 +28,7 @@ def main():
     a = 1
     b = 2
     c = 3
-    if __name__ == '__main__':
+    if __name__ == '__master__':
         print(formulas(a,b,c,lx,ly,m))
 
 
